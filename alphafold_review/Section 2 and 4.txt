@@ -1,9 +1,0 @@
-﻿Mark Cubi
-2/2/26
-
-
-Alphafold Group Report
-2. The computational approach the authors use is neural networks to predict 3D coordinates of all heavy atoms for a given protein using the primary amino acid sequence. The network processes inputs through multiple layers of Evoformers and is then followed by the structure module that introduces an explicit 3D structure in the form of a rotation and translation for each residue of the protein. The Evoformer combines data from a related protein sequence and pairwise relationships between amino acids in the protein. The structure module serves as an end-to-end structure prediction that takes the previous output of the Evoformer and then directly predicts the full 3D structure of the protein. 
-
-
-4. The main reason we would not be able to replicate the results is due to hardware limitations on a typical pc. AlphaFold was developed and run using advanced GPUs capable of handling extremely large computational workloads. Attempting to perform the same computations on a standard pc would be impractical or impossible. In addition, the datasets required by AlphaFold are extremely large and exceed the available memory on most personal machines, making it difficult to load and process them efficiently. The AlphaFold GitHub repository primarily provides a pre-trained model, meaning that users are not reproducing the full training process. Re-training the model from scratch would not be feasible on a personal computer and would encounter the same computational and memory constraints described above. A smaller issue we would run into is having to download all the packages and the exact versions they used in the study.
