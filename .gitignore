@@ -1,5 +1,8 @@
 # ignore everything in bio freecodecamp
 bioinformatics_freecodecamp/*
 
-# except this file!!
+# except these files!!
 !bioinformatics_freecodecamp/CDD_ML_Part_1_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb
+!bioinformatics_freecodecamp/CDD_ML_Part_2_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb
+
+
