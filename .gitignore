@@ -1,6 +1,5 @@
-# ignore everything in bio freecodecamp and the prediction app
+# ignore everythig in bio freecodecamp
 bioinformatics_freecodecamp/*
-bioactivity-prediction-app/*
 
 # except these files!!
 !bioinformatics_freecodecamp/CDD_ML_Part_1_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb
@@ -8,4 +7,4 @@ bioactivity-prediction-app/*
 !bioinformatics_freecodecamp/CDD_ML_Part_3_Acetylcholinesterase_Descriptor_Dataset_Preparation.ipynb
 !bioinformatics_freecodecamp/CDD_ML_Part_4_Acetylcholinesterase_Regression_Random_Forest.ipynb
 !bioinformatics_freecodecamp/CDD_ML_Part_5_Acetylcholinesterase_Compare_Regressors.ipynb
-!bioactivity-prediction-app/bioactivity_prediction_app.ipynb
+!bioinformatics_freecodecamp/bioactivity_prediction_app.ipynb
